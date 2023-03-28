@@ -51,7 +51,7 @@ export default function Home() {
       })
       .catch(err => {
         console.log(err);
-        setIpinfo('获取国内的IP信息失败')
+        setIpinfo('获取国内IP信息失败')
       })
 
     const numTests = 3; // 进行 3 次测试
@@ -185,11 +185,11 @@ export default function Home() {
         </main>
 
         <footer className={styles.footer}>
-          <i><a className={styles.a} href="https://github.com/x-dr/chatgptProxyAPI">By @x-dr</a></i>
+          <i><a className={styles.a} href="https://github.com/">By 孙师傅</a></i>
           {isLoading ? (
-            <p>正在测试响应时间...</p>
+            <p>正在丈量响应时间...</p>
           ) : (
-            <p style={{ color: latencyColor }}>API平均响应时间：{latency.toFixed(2)}ms</p>
+            <p style={{ color: latencyColor }}>API平响：{latency.toFixed(2)}ms</p>
           )}
           <p >{ipinfo}</p>
           {/* <p >{ipinfov}</p> */}

@@ -2,7 +2,7 @@
 async function handler(req) {
   return new Response(
     JSON.stringify({
-      name: 'Hello word！',
+      name: '孙师傅驮着恐龙🦖',
     }),
     {
       status: 200,

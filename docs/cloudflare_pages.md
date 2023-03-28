@@ -40,7 +40,7 @@
 
 ### 使用 
 
-> 以我的搭建的服务`https://openai-proxy-api.pages.dev/` 为例
+> 以我的搭建的服务`https://openai-proxy-apis.pages.dev/` 为例
 
 1. 对话
 
