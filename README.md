@@ -1,4 +1,4 @@
-
+nb
 ### Demo
 
 [https://chatai.1rmb.tk](https://chatai.1rmb.tk)
@@ -17,7 +17,6 @@ https://openai.1rmb.tk
 
 
 **[详细教程](./docs/cloudflare_workers.md)**
-
 
 
 
@@ -58,30 +57,7 @@ https://openai.1rmb.tk
 **[详细教程](./docs/cloudflare_pages.md)**
 
 
-### docker 部署（要境外vps）
-
-```bash
-docker run -itd --name openaiproxy \
-            -p 3000:3000 \
-            --restart=always \
-           gindex/openaiproxy:latest
 ```
-
-#### 使用
-
-*api : http://vpsip:3000/proxy/v1/chat/completions*
-
-```bash
-curl --location 'http://vpsip:3000/proxy/v1/chat/completions' \
---header 'Authorization: Bearer sk-xxxxxxxxxxxxxxx' \
---header 'Content-Type: application/json' \
---data '{
-   "model": "gpt-3.5-turbo",
-  "messages": [{"role": "user", "content": "Hello!"}]
- }'
-
-```
-
 
 ## Stargazers over time
 
